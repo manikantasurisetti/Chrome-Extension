@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Title Viewer",
+    "version": "1.0",
+    "description": "Displays the title of the current tab.",
+    "permissions": ["activeTab"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png",
+      "icons": "icon.png"
+    }
+}
